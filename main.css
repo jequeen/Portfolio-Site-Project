@@ -31,12 +31,12 @@ header{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
 }
 .header-inner{
     height: 100%;
     width: 100%;
-    border-bottom: 4px solid #546A76;
+    /* border-bottom: 4px solid #546A76; */
 }
 .logo{
     height: 120px;
@@ -48,9 +48,9 @@ header{
 
 }
 .name{
-    float: right;
-    padding-left: 15px;
+    padding-top: 1px;
     text-align: right;
+    white-space: nowrap;
     color: #734B5E;
 }
 
@@ -61,6 +61,7 @@ header{
  */
 
 .content{
+    border-top: 4px solid #546A76;
     height: 100%;
 }
 
@@ -74,6 +75,7 @@ header{
     height: 90%;
 }
 .banner-image {
+    padding-top: 30px;
     height: 90%;
     width: 100%;
 }
