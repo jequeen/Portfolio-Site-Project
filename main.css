@@ -7,7 +7,10 @@
 .projects{
     background-color: blue;
 } */
-
+body,
+html{
+    overflow-y: scroll;
+}
 body,
 html,
 main {
@@ -84,6 +87,7 @@ header{
 .projects{
     height: 50%;
     width: 100%;
+    padding-bottom: 75;
 }
 .item{
     height: 100%;
