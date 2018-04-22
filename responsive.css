@@ -3,26 +3,31 @@
     flex-wrap: wrap;
 }
 
-.box,.projects,.item{
+.box,
+.projects,
+.item{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
 }
 
-@media screen and (max-width: 1038px){
+@media screen and (max-width: 1039px){
     .projects{
-      margin-left: 25%;
-      margin-right: 25%;
+      margin-left: 15%;
+      margin-right: 15%;
     }
     .content, header{
       margin-left: 10%;
       margin-right: 10%;
     }
+    .banner{
+      height:75%;
+    }
 }
 
 @media screen and (min-width: 1039px) {
     main, header, .header-inner, .content {
-      width: 1030px;
+      width: 85%;
       margin-left: auto;
       margin-right: auto;
     }

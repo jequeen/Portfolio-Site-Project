@@ -10,6 +10,17 @@
 body,
 html{
     overflow-y: scroll;
+    font-family: 'Alegreya Sans SC';
+    color: #734B5E;
+}
+h1{
+    font-size: 35px;
+}
+h2{
+    font-size: 30px;
+}
+h3{
+    font-size: 22px;
 }
 body,
 html,
@@ -51,7 +62,7 @@ header{
     padding-top: 1px;
     text-align: right;
     white-space: nowrap;
-    color: #734B5E;
+    font-size: 22px;
 }
 
 /*
@@ -103,6 +114,10 @@ header{
 .item-image{
     max-width: 90%;
     max-height: 70%;  
+}
+.title{
+    width: 100%;
+    text-align: center;
 }
 
 img {
