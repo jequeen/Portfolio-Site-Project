@@ -26,7 +26,10 @@
 }
 
 @media screen and (min-width: 1039px) {
-    main, header, .header-inner, .content {
+    main,
+    header, 
+    .header-inner, 
+    .content {
       width: 85%;
       margin-left: auto;
       margin-right: auto;
@@ -56,5 +59,7 @@
         padding-left: 20px;
         padding-right: 0;
       }
-      .item-image{width: 33.33%;}  
+      .item-image{
+        width: 33.33%;
+      }  
 }

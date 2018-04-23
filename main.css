@@ -1,12 +1,3 @@
-/* .header{
-    background-color: red;
-} */
-/* .banner{
-    background-color: green;
-}
-.projects{
-    background-color: blue;
-} */
 body,
 html{
     overflow-y: scroll;
@@ -47,7 +38,6 @@ header{
 .header-inner{
     height: 100%;
     width: 100%;
-    /* border-bottom: 4px solid #546A76; */
 }
 .logo{
     height: 120px;
@@ -56,7 +46,6 @@ header{
     float: left;
     padding-left: 0;
     padding-right: 15px;
-
 }
 .name{
     padding-top: 1px;
@@ -84,10 +73,11 @@ header{
 
 .banner{
     height: 90%;
+    padding-bottom: 30px;
+    padding-top: 30px;
 }
 .banner-image {
-    padding-top: 30px;
-    height: 90%;
+    height: 100%;
     width: 100%;
 }
 
@@ -105,11 +95,7 @@ header{
 .item{
     height: 100%;
     max-width: 100%;
-    /* padding-left: 20px; */
     padding-top: 20px;
-}
-.first{
-    /* padding-left: 0; */
 }
 .item-image{
     max-width: 90%;
@@ -119,7 +105,6 @@ header{
     width: 100%;
     text-align: center;
 }
-
 img {
     max-width: 100%;
     max-height: 100%;
